@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos-SalvaTerra</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="imgs/icono.ico">
+
+</head>
+<body class="Todo">
+
+<!--Navegador-->
+
+<header class="cd-auto-hide-header">
+	<div class="logo"><a href="index.html"><img src="imgs/Logotipo.png" alt="Logo"></a></div>
+
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">INICIO</a></li>
+      <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+      <li><a href="Nuestra_labor.html">NUESTRA LABOR</a></li>
+      <li><a href="Videos.html">VIDEOS</a></li>
+			<li><a href="contactenos.html">CONTÁCTENOS</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+ <!-- Swiper -->
+
+ <div
+ style="--swiper-navigation-color: rgb(0, 73, 34); --swiper-pagination-color: #fff"
+ class="swiper mySwiper"
+>
+ <div
+   class="parallax-bg"
+   data-swiper-parallax="-23%"
+ >
+<img src="imgs/slider 5.png" alt="">
+</div>
+ <div class="swiper-wrapper">
+   <div class="swiper-slide">
+     <div class="title" data-swiper-parallax="-300"><strong>Objetivo:</strong></div>
+     <div class="subtitle" data-swiper-parallax="-200">El programa centraría sus esfuerzos en capacitar a las familias</div>
+     <div class="text" data-swiper-parallax="-100">
+       <p>
+        en nuevas herramientas productivas urbanas específicas, con diferentes niveles de desarrollo tecnológico, 
+        (básico y medio), para la producción de hortalizas en casa.
+       </p>
+     </div>
+   </div>
+   <div class="swiper-slide">
+     <div class="title" data-swiper-parallax="-300"><strong>Metas:</strong></div>
+     <div class="subtitle" data-swiper-parallax="-200">Formar en sistemas de producción urbana</div>
+     <div class="text" data-swiper-parallax="-100">
+       <p>
+        y periurbana en el marco de producción de alimentos en el hogar en pequeños 
+        espacios de balcón, corredores, patios o terrazas.
+       </p>
+     </div>
+   </div>
+   <div class="swiper-slide">
+     <div class="title" data-swiper-parallax="-300"><strong>Materiales y Metodología:</strong></div>
+     <div class="subtitle" data-swiper-parallax="-200">En este ejercicio se ofrece un kit de abastecimiento alimentario y productivo</div>
+     <div class="text" data-swiper-parallax="-100">
+       <p>
+        que esta compuesto por el recipiente o estructura (en el caso que lo requiera), sustrato, abono orgánico, 
+        fertilizantes líquidos, microorganismos benéficos, fijadores de nitrógeno y nitrificantes, 8 sobres cada uno
+         con una variedad de hortaliza y un instructivo digital del uso y manejo de la huerta en casa.
+       </p>
+     </div>
+   </div>
+ </div>
+ <div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+ var swiper = new Swiper(".mySwiper", {
+   speed: 600,
+   parallax: true,
+   pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+   },
+   navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+   },
+ });
+</script>
+    <!--Fin Slider-->
+
+<!--Videos-->
+
+<div class="video-responsive" data-aos="fade-down">
+
+  <iframe src="https://www.youtube.com/embed/SpWfui2HuTo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+</div>
+
+<div class="videos_flexbox">
+    <div class="Video" data-aos="fade-down-right">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/aOqdJFR-aww" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>SalvaTerra</p>
+    </div>
+
+    <div class="Video" data-aos="fade-down"">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/nBVw1oKYi9A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>La Fundación Salva Terra tiene como objetivo</p>
+      <p> involucrar menores y adultos en prácticas agrícolas</p>
+    </div>
+
+    <div class="Video" data-aos="fade-down-left"">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OEoJwD1ifyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Transformación habitantes de calle [Federico Gutiérrez]</p>
+    </div>
+    
+    <div class="Video" data-aos="fade-right"">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ULsp0TbRBWY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Exhabitantes de calle participan en Mercados Campesinos</p>
+      <p> [Noticias] - TeleMedellin</p>
+    </div>
+
+    <div class="Video" data-aos="zoom-in"">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/PzuF9ttibHU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Concejo de Medellín analizó programa de granjas para </p>
+      <p>habitantes de calle [Noticias] - TeleMedellin</p>
+    </div>
+
+    <div class="Video" data-aos="fade-left">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/SSvQXb2mS6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Culivos Orgánicos como Herramienta de Reinserción Social</p>
+      <p> - TvAgro por Juan Gonzalo Angel</p>
+    </div>
+
+    <div class="Video" data-aos="fade-up-right">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/OSZwnRSCOF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>HOGAR DE HUERTAS - Proyecto social ONE PEACE</p>
+      <P> / FUNDACION SALVATERRA</P>
+    </div>
+
+    <div class="Video" data-aos="fade-up"">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/GvfSitSHvjI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>SalvaTerra</p>
+    </div>
+
+    <div class="Video" data-aos="fade-up-left">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/TCwO6yGYQx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Testimonio de la productora: Luz Aida Duque</p>
+    </div>
+</div>
+
+<!--Footer-->
+
+<footer class="pie-pagina">
+  <div class="grupo-1">
+     
+      <div class="box">
+          <h2>OBJETIVO GENERAL</h2>
+          <p>Fortalecer el desarrollo Urbano – rural por medio de proyectos productivos agropecuarios en el marco de la sostenibilidad. </p>
+          <p></p>
+      </div>
+
+      <div class="box">
+        
+      </div>
+
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+              <a href="https://www.facebook.com/FSTerra/" class="fa fa-facebook"></a>
+              <a href="https://www.instagram.com/fundacionsalvaterra/" class="fa fa-instagram"></a>
+              <a href="https://www.youtube.com/channel/UC-r9_VlViqQBtGOO9M7tLfA" class="fa fa-youtube"></a>
+          </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; Fundación <b>Salva Terra</b>· Via Parque Arví, Calle 86 con la Carrera 36 Este - Santa Elena, Medellín - Colombia</small>
+  </div>
+</footer>
+
+
+
+<!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
