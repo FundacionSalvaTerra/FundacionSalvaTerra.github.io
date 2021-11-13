@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contáctenos-SalvaTerra</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="imgs/icono.ico">
+
+</head>
+<body class="Todo">
+
+<!--Navegador-->
+
+<header class="cd-auto-hide-header">
+	<div class="logo"><a href="index.html"><img src="imgs/Logotipo.png" alt="Logo"></a></div>
+
+	<nav class="cd-primary-nav">
+		<a href="#cd-navigation" class="nav-trigger">
+			<span>
+				<em aria-hidden="true"></em>
+				Menu
+			</span>
+		</a> <!-- .nav-trigger -->
+
+		<ul id="cd-navigation">
+			<li><a href="index.html">INICIO</a></li>
+      <li><a href="sobre_nosotros.html">SOBRE NOSOTROS</a></li>
+      <li><a href="Nuestra_labor.html">NUESTRA LABOR</a></li>
+      <li><a href="Videos.html">VIDEOS</a></li>
+			<li><a href="contactenos.html">CONTÁCTENOS</a></li>
+		</ul>
+	</nav> <!-- .cd-primary-nav -->
+</header> <!-- .cd-auto-hide-header -->
+
+ <!-- Swiper -->
+
+ <div
+ style="--swiper-navigation-color: rgb(255, 255, 255); --swiper-pagination-color: #fff"
+ class="swiper mySwiper"
+>
+ <div
+   class="parallax-bg"
+   data-swiper-parallax="-23%"
+ >
+<img src="imgs/2.jpg.png" alt="">
+</div>
+ <div class="swiper-wrapper">
+   <div class="swiper-slide">
+     <div class="title" data-swiper-parallax="-300"><strong> ¿Quieres formar parte de nosotros?</strong></div>
+     <div class="subtitle" data-swiper-parallax="-200">Únete</div>
+     <div class="text" data-swiper-parallax="-100">
+       <p>
+        Fundación Salva Terra se permite realizar acompañamiento a agricultores
+         pequeños productores agropecuarios y emprendedores rurales y urbanos de diferentes departamentos
+       </p>
+     </div>
+   </div>
+   <div class="swiper-slide">
+     <div class="title" data-swiper-parallax="-300"><strong>Tu eres parte del cambio</strong></div>
+     <div class="subtitle" data-swiper-parallax="-200">Pensando en grande</div>
+     <div class="text" data-swiper-parallax="-100">
+       <p>
+        ¡La agricultura sostenible si tiene futuro y nosotros te ayudamos!
+        se brinda oportunidades de empleo a las personas de los diferentes 
+        sectores en los que intervenimos 
+       </p>
+     </div>
+   </div>
+   <div class="swiper-slide">
+     <div class="title" data-swiper-parallax="-300"><strong>Se nuestro aliado</strong></div>
+     <div class="subtitle" data-swiper-parallax="-200">y forma parte de esta fundación</div>
+     <div class="text" data-swiper-parallax="-100">
+       <p>
+        donde la huerta se ha convertido en un espacio de resocialización y de compartir desde las habilidades 
+        de cada participante, con el fin de aprender haciendo y obtener nuevos conocimientos en poblaciones 
+        en condición de vulnerabilidad social.
+       </p>
+     </div>
+   </div>
+ </div>
+ <div class="swiper-button-next"></div>
+ <div class="swiper-button-prev"></div>
+ <div class="swiper-pagination"></div>
+</div>
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+ var swiper = new Swiper(".mySwiper", {
+   speed: 600,
+   parallax: true,
+   pagination: {
+     el: ".swiper-pagination",
+     clickable: true,
+   },
+   navigation: {
+     nextEl: ".swiper-button-next",
+     prevEl: ".swiper-button-prev",
+   },
+ });
+</script>
+    <!--Fin Slider-->
+
+<!--Contactenos-->
+
+<div class="Contenedor">
+  <div class="Texto">
+    <h2><strong>Contactenos</strong></h2>
+    <br>
+    <h4>Direccion</h4>
+      <p>Fundación SalvaTerra</p>
+      <br>
+      <p>Vereda Piedras Blancas – Matasano, Via Parque Arví Calle 86 con la Carrera 36 Este. Santa Elena, Medellín – Antioquia.</p>
+      <br>
+      <p> &#x260e; +57 3013354757</p>
+      <br>
+      <a href="https://mail.google.com/">info@fundacionsalvaterra.org</a>
+      <br>
+      
+  </div>
+</div>
+
+<div class="Mapa" data-aos="fade-up"
+data-aos-anchor-placement="center-bottom">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9432.499596409996!2d-75.50580447506658!3d6.279825054751531!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa8e51647ad3c729!2sFundaci%C3%B3n%20Salva%20Terra!5e0!3m2!1ses-419!2sco!4v1635905190766!5m2!1ses-419!2sco" width="100%" height="550" style="border:0px;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+
+<!--Footer-->
+
+<footer class="pie-pagina">
+  <div class="grupo-1">
+     
+      <div class="box">
+          <h2>OBJETIVO GENERAL</h2>
+          <p>Fortalecer el desarrollo Urbano – rural por medio de proyectos productivos agropecuarios en el marco de la sostenibilidad. </p>
+          <p></p>
+      </div>
+
+      <div class="box">
+        
+      </div>
+
+      <div class="box">
+          <h2>SIGUENOS</h2>
+          <div class="red-social">
+            <a href="https://www.facebook.com/FSTerra/" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/fundacionsalvaterra/" class="fa fa-instagram"></a>
+            <a href="https://www.youtube.com/channel/UC-r9_VlViqQBtGOO9M7tLfA" class="fa fa-youtube"></a>
+        </div>
+      </div>
+  </div>
+  <div class="grupo-2">
+      <small>&copy; Fundación <b>Salva Terra</b>· Via Parque Arví, Calle 86 con la Carrera 36 Este - Santa Elena, Medellín - Colombia</small>
+  </div>
+</footer>
+
+
+
+<!-- .cd-main-content -->
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+<script>
+	if( !window.jQuery ) document.write('<script src="js/jquery-3.0.0.min.js"><\/script>');
+</script>
+<script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
