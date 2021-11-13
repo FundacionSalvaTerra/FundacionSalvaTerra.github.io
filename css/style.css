@@ -158,14 +158,47 @@ img {
 
 }
 
-.parallax-bg {
+.parallax-bg-1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 210%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.parallax-bg-2 {
   position: absolute;
   left: 0;
   top: 0;
   width: 130%;
   height: 100%;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.parallax-bg-3 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 210%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: 100% 100%;
+  background-position: center;
+}
+
+.parallax-bg-4 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 210%;
+  height: 100%;
+  -webkit-background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
 }
 
@@ -206,21 +239,6 @@ img {
     margin-top: 16em;
   }
 
- .video {
-    margin: 10em 20em 0em 30em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
- }
-
- .video-responsive {
-	height: 0;
-	overflow: hidden;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	position: relative;
-	}
-
 .texto {
   text-align: center;
 }
@@ -235,6 +253,70 @@ img {
 	}
 
 @media (min-width: 481px) and (max-width: 767px) {
+
+  .videos_flexbox {
+    height: 0%;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    position: relative;
+   }
+
+  .parallax-bg-1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 315%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  
+  .parallax-bg-2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 600%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  
+  .parallax-bg-3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 450%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  
+  .parallax-bg-4 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 395%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .parallax-bg-5 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 270%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  
 
   .parallax-bg {
     position: absolute;
@@ -285,15 +367,30 @@ img {
 
 @media (min-width: 481px) and (max-width: 767px) {
 
-  .Mapa {
-    height: auto;
-    width: auto;
-  }
+
+  .Mapa{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+   height:0;
+
+}
+
+.Mapa iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
 }
 
 /*Videos*/
 
 .videos_flexbox {
+  width: 100%;
+  height: auto;
   margin-top: 4em;
   display: flex;
   flex-direction: row;
@@ -303,12 +400,28 @@ img {
 }
 
 .videos_flexbox .Video {
+
   margin-bottom: 3em;
 }
 
 .videos_flexbox .Video p {
   font-family: 'Nunito', sans-serif;
   text-align: center;
+}
+
+.video {
+  margin: 10em 20em 0em 30em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.video-responsive {
+height: 0%;
+overflow: hidden;
+padding-bottom: 56.25%;
+padding-top: 30px;
+position: relative;
 }
 
 
